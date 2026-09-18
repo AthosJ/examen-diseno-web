@@ -2,7 +2,7 @@
 
 Sitio web corporativo tipo *One-Page* desarrollado para la empresa **ALUVA**, especializada en vestuario técnico y protección industrial. Proyecto correspondiente a la Evaluación N°3 de la asignatura **Diseño Web**.
 
-🚀 **Sitio Web Desplegado (Netlify):** https://tu-sitio.netlify.app
+🚀 **Sitio Web Desplegado (Netlify):https://ev3disenowebaluva.netlify.app/
 
 ---
 
