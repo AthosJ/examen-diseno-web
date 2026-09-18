@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>ALUVA - Ropa de Trabajo y EPP</title>    
+        
+        <!-- CSS Bootstrap 4 & Assan Templates -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="line-icons/line-icons.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/style-demos.css" rel="stylesheet">
+
+        <style>
+            /* Estilos Generales */
+            .hero-aluva {
+                background: linear-gradient(rgba(27, 94, 32, 0.85), rgba(46, 125, 50, 0.85)), url('images/IMG_8419.jpeg') center/cover no-repeat;
+                padding: 120px 0 80px 0;
+            }
+            .hero-logo {
+                width: 280px;
+                height: 85px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 8px;
+                box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+            }
+            .product-card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                border: none;
+            }
+            .product-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+            }
+            .product-card img {
+                height: 220px;
+                object-fit: cover;
+            }
+            .brand-logo-nav {
+                max-height: 45px;
+                border-radius: 4px;
+            }
+
+            /* Media Queries para Responsive Móvil */
+            @media (max-width: 768px) {
+                .hero-aluva {
+                    padding: 90px 15px 50px 15px;
+                }
+                .hero-aluva h1.display-4 {
+                    font-size: 2.2rem;
+                }
+                .hero-logo {
+                    width: 210px;
+                    height: 65px;
+                }
+                .hero-aluva .lead {
+                    font-size: 1rem;
+                }
+                h2 {
+                    font-size: 1.6rem !important;
+                }
+                h3 {
+                    font-size: 1.3rem !important;
+                }
+                section {
+                    padding-top: 2.5rem !important;
+                    padding-bottom: 2.5rem !important;
+                }
+                .product-card img {
+                    height: 180px;
+                }
+                .card {
+                    margin-bottom: 1rem;
+                }
+                .brand-logo-nav {
+                    max-height: 35px;
+                }
+                .navbar-nav .btn {
+                    margin-left: 0 !important;
+                    margin-top: 10px;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-offset="73" data-target="#navbar-aluva">
+
+        <!-- Navegación Bootstrap 4 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="navbar-aluva">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center font-weight-bold" href="#home">
+                    <img src="images/LOGO ALUVA.jpeg" alt="Logo ALUVA" class="brand-logo-nav mr-2">
+                    <span class="text-success font-weight-bold">ALUVA</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-scroll href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#mision-vision">Misión y Visión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#catalogo">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#galeria">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success text-white ml-lg-3 px-4" data-scroll href="#contacto">Cotizar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero / Banner Principal -->
+        <div class="hero-aluva text-white text-center" id="home">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <h1 class="display-4 font-weight-bold text-white mb-2">ALUVA</h1>
+                        <div class="mb-4">
+                            <img src="images/LOGO ALUVA.jpeg" alt="Logo ALUVA" class="hero-logo img-fluid">
+                        </div>
+                        <p class="lead text-light mb-4 font-weight-normal">
+                            Ropa de Trabajo y Elementos de Protección Personal (EPP). Máxima durabilidad, seguridad y comodidad con personalización de alto estándar para el sector industrial y faenero.
+                        </p>
+                        <a data-scroll class="btn btn-outline-light btn-lg rounded-pill px-4 mr-2 mb-2" href="#galeria">Ver Productos</a>
+                        <a data-scroll class="btn btn-success btn-lg rounded-pill px-4 mb-2" href="#contacto">Contacto Directo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nosotros -->
+        <section class="py-5 bg-white" id="nosotros">
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <span class="badge badge-success text-uppercase px-3 py-2 mb-2">Sobre Nosotros</span>
+                        <h2 class="font-weight-bold mb-3">Especialistas en Indumentaria Técnica e Industrial</h2>
+                        <p class="text-muted lead">
+                            En <strong>ALUVA</strong>, nos especializamos en el diseño, confección y distribución de ropa de trabajo, vestuario corporativo y Equipos de Protección Personal (EPP).
+                        </p>
+                        <p class="text-muted">
+                            Nacimos para responder a las exigencias reales del sector faenero e industrial, combinando la máxima durabilidad, seguridad y comodidad con un alto estándar de personalización. Desarrollamos soluciones tanto para grandes y medianas empresas como para trabajadores independientes.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/IMG_8396.jpeg" alt="Personalización ALUVA" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="py-5 bg-light" id="mision-vision">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="font-weight-bold">Misión y Visión</h2>
+                    <p class="text-muted">Nuestros pilares fundamentales en seguridad y vestuario técnico</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="card-body text-center">
+                                <i class="icon-Target fs-3x text-success mb-3 d-block"></i>
+                                <h3 class="h4 font-weight-bold card-title">Misión</h3>
+                                <p class="card-text text-muted">
+                                    Proveer vestuario técnico, EPP y prendas corporativas de alta durabilidad y funcionalidad, diseñadas para resistir las condiciones más exigentes del trabajo faenero y la vida diaria, integrando personalización de marca y tecnología textil en cada producto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="card-body text-center">
+                                <i class="icon-Eye fs-3x text-success mb-3 d-block"></i>
+                                <h3 class="h4 font-weight-bold card-title">Visión</h3>
+                                <p class="card-text text-muted">
+                                    Ser el referente y aliado estratégico clave en la confección y suministro de ropa industrial, EPP y vestuario personalizado, destacados por la innovación constante en materiales, el diseño a medida y el compromiso absoluto con la seguridad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catálogo PDF (Banner CTA) -->
+        <section class="py-5 bg-success text-white" id="catalogo">
+            <div class="container text-center py-3">
+                <h2 class="font-weight-bold text-white mb-3">Catálogo Oficial 2026</h2>
+                <p class="lead text-light mb-4">Descarga o consulta en línea la gama completa de vestuario técnico y especificaciones EPP.</p>
+                <a href="CATALOGO ALUVA 2026.pdf" target="_blank" class="btn btn-light btn-lg text-success font-weight-bold rounded-pill px-5 shadow">
+                    <i class="icon-File-HTML mr-2"></i> Abrir Catálogo PDF
+                </a>
+            </div>
+        </section>
+
+        <!-- Galería de Productos -->
+        <section class="py-5 bg-white" id="galeria">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="font-weight-bold">Galería de Productos</h2>
+                    <p class="text-muted">Indumentaria técnica, chalecos geólogos y muestras en terreno</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/GEOLOGO MINERO AMARILLO 1.jpeg" class="card-img-top" alt="Geólogo Minero Amarillo 1">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Geólogo Minero Amarillo (Vista 1)</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/GEOLOGO MINERO AMARILLO 2.jpeg" class="card-img-top" alt="Geólogo Minero Amarillo 2">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Geólogo Minero Amarillo (Vista 2)</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/GEOLOGO MINERO NARANJO.jpeg" class="card-img-top" alt="Geólogo Minero Naranjo">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Geólogo Minero Naranjo High-Vis</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/GORRO NEGRO.jpeg" class="card-img-top" alt="Gorro Negro">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Gorro Térmico Negro</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/IMG_8396.jpeg" class="card-img-top" alt="Personalización en Terreno">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Personalización en Terreno</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/IMG_8419.jpeg" class="card-img-top" alt="Indumentaria Faenera">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Indumentaria Faenera en Uso</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/PANTALON RIPSTON 1.jpeg" class="card-img-top" alt="Pantalón Ripstop 1">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Pantalón Ripstop Técnico</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/PANTALON RIPSTON 2.jpeg" class="card-img-top" alt="Pantalón Ripstop 2">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Pantalón Ripstop (Detalle)</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/POLERA NEGRA.jpeg" class="card-img-top" alt="Polera Negra">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Polera Algodón Negra</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/POLERON GRIS 1.jpeg" class="card-img-top" alt="Polerón Gris 1">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Polerón Corporativo Gris (V1)</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/POLERON GRIS 2.jpeg" class="card-img-top" alt="Polerón Gris 2">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Polerón Corporativo Gris (V2)</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card product-card shadow-sm h-100">
+                            <img src="images/POLERON GRIS 3.jpeg" class="card-img-top" alt="Polerón Gris 3">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title font-weight-bold text-dark mb-0">Polerón Corporativo Gris (V3)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto (Formulario y Datos) -->
+        <section class="py-5 bg-light" id="contacto">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <h2 class="font-weight-bold mb-4">Contacto y Ubicación</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="icon-Map-Marker fs-2x text-success mr-3"></i>
+                                <span><strong>Dirección:</strong> Tornamesa 42, Los Andes.</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="icon-Envelope fs-2x text-success mr-3"></i>
+                                <span><strong>Correo:</strong> aluva.seguridad@gmail.com</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="icon-Instagram fs-2x text-success mr-3"></i>
+                                <span><strong>Instagram:</strong> <a href="https://www.instagram.com/aluva.outdoor" target="_blank" class="text-success font-weight-bold">@Aluva.outdoor</a></span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="icon-Video fs-2x text-success mr-3"></i>
+                                <span><strong>TikTok:</strong> <a href="https://www.tiktok.com/@aluva.outdoor" target="_blank" class="text-success font-weight-bold">@Aluva.outdoor</a></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="card border-0 shadow-sm p-4">
+                            <h3 class="h4 font-weight-bold mb-4">Cotizar o Enviar Mensaje</h3>
+                            <form id="contactForm" novalidate>
+                                <div class="form-group mb-3">
+                                    <label for="nombre" class="font-weight-bold">Nombre Completo:</label>
+                                    <input type="text" id="nombre" class="form-input form-control" placeholder="Ej: Juan Pérez">
+                                    <div class="invalid-feedback" id="errorNombre">El nombre es obligatorio.</div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="email" class="font-weight-bold">Correo Electrónico:</label>
+                                    <input type="email" id="email" class="form-input form-control" placeholder="correo@ejemplo.com">
+                                    <div class="invalid-feedback" id="errorEmail">Ingrese un correo válido.</div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="mensaje" class="font-weight-bold">Mensaje o Requerimiento:</label>
+                                    <textarea id="mensaje" class="form-input form-control" rows="4" placeholder="Indica cantidad, prendas o cotización..."></textarea>
+                                    <div class="invalid-feedback" id="errorMensaje">El mensaje no puede estar vacío.</div>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-block btn-lg font-weight-bold">Enviar Cotización</button>
+                                <div id="formFeedback" class="mt-3"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container">
+                <p class="mb-0 text-muted">&copy; 2026 ALUVA - Ropa de Trabajo y EPP. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+        <script src="js/smooth-scroll.min.js"></script> 
+        <script src="js/main.js"></script>
+        <script>
+            $(function () {
+                smoothScroll.init({
+                    selector: '[data-scroll]',
+                    speed: 1000,
+                    easing: 'easeInOutCubic',
+                    offset: 70
+                });
+            });
+        </script>
+    </body>
+</html>
